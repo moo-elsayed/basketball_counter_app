@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/HomeView.dart';
+import 'package:project/views/home_view/HomeView.dart';
 import 'package:project/cubit/counter_cubit.dart';
-import 'package:project/cubit/counter_states.dart';
 
 void main() {
   runApp(const MyApp());
