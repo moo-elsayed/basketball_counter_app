@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/cubit/counter_cubit.dart';
-import 'package:project/cubit/counter_states.dart';
-import 'package:project/views/home_view/widgets/button.dart';
 import 'package:project/views/home_view/widgets/home_view_body.dart';
 
 
