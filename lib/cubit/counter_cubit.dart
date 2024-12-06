@@ -10,16 +10,16 @@ class CounterCubit extends Cubit<CounterStates> {
   void pointsIncrement({required String team, required int points}) {
     if (team == 'A') {
       teamAPoints += points;
-      emit(CounterAIncrementState());
+      emit(NewState());
     } else {
       teamBPoints += points;
-      emit(CounterBIncrementState());
+      emit(NewState());
     }
   }
 
   void pointsReset() {
     teamAPoints = 0;
     teamBPoints = 0;
-    emit(PointsReset());
+    emit(NewState());
   }
 }
